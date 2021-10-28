@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression Suite" >
+	<test name="Complete Regression" preserve-order="true" >
+		<classes>
+			<class name="main.test.tests._1LoginTests"></class> 
+			<class name="main.test.tests._2AddProductsAndCheckoutTest"></class>
+		</classes>
+	</test>
+</suite>
